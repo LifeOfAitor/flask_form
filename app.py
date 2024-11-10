@@ -41,7 +41,6 @@ def index():
         flash(f"Form submitted {first_name}", "success")
 
     return render_template("index.html")
-
 if __name__ == "__main__":
     # this will make the database if it does not exist
     with app.app_context():
